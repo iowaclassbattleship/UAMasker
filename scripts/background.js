@@ -1,0 +1,90 @@
+const firefox = [
+    "Mozilla\/5.0 (Windows NT 5.1; rv:7.0.1) Gecko\/20100101 Firefox\/7.0.1",
+    "Mozilla\/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko\/20100101 Firefox\/54.0",
+    "Mozilla\/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko\/20100101 Firefox\/40.1",
+    "Mozilla\/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko\/20100101 Firefox\/50.0",
+    "Mozilla\/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko\/20100101 Firefox\/52.0",
+    "Mozilla\/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko\/20100101 Firefox\/50.0",
+    "Mozilla\/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko\/20100101 Firefox\/54.0",
+    "Mozilla\/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko\/20100101 Firefox\/52.0",
+    "Mozilla\/5.0 (Windows NT 6.1; WOW64; rv:41.0) Gecko\/20100101 Firefox\/41.0",
+    "Mozilla\/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko\/20100101 Firefox\/46.0",
+    "Mozilla\/5.0 (Windows NT 6.1; WOW64; rv:44.0) Gecko\/20100101 Firefox\/44.0",
+    "Mozilla\/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko\/20100101 Firefox\/56.0",
+    "Mozilla\/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko\/20100101 Firefox\/47.0",
+    "Mozilla\/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko\/20100101 Firefox\/52.0",
+    "Mozilla\/5.0 (Windows NT 6.0; WOW64; rv:52.0) Gecko\/20100101 Firefox\/52.0",
+    "Mozilla\/5.0 (Windows NT 6.1; WOW64; rv:56.0) Gecko\/20100101 Firefox\/56.0",
+    "Mozilla\/5.0 (Windows NT 6.3; WOW64; rv:50.0) Gecko\/20100101 Firefox\/50.0",
+    "Mozilla\/5.0 (Windows NT 6.2; WOW64; rv:52.0) Gecko\/20100101 Firefox\/52.0",
+    "Mozilla\/5.0 (Windows NT 5.1; WOW64; rv:52.0) Gecko\/20100101 Firefox\/52.0",
+    "Mozilla\/5.0 (Windows NT 10.0; WOW64; rv:48.0) Gecko\/20100101 Firefox\/48.0",
+    "Mozilla\/5.0 (Windows NT 6.2; WOW64; rv:50.0) Gecko\/20100101 Firefox\/50.0",
+    "Mozilla\/5.0 (Windows NT 5.1; WOW64; rv:50.0) Gecko\/20100101 Firefox\/50.0",
+    "Mozilla\/5.0 (Windows NT 6.0; WOW64; rv:50.0) Gecko\/20100101 Firefox\/50.0",
+    "Mozilla\/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko\/20100101 Firefox\/39.0",
+    "Mozilla\/5.0 (Windows NT 6.3; WOW64; rv:41.0) Gecko\/20100101 Firefox\/41.0",
+    "Mozilla\/5.0 (Windows NT 6.3; WOW64; rv:46.0) Gecko\/20100101 Firefox\/46.0",
+    "Mozilla\/5.0 (Windows NT 6.1; WOW64; rv:48.0) Gecko\/20100101 Firefox\/48.0",
+    "Mozilla\/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko\/20100101 Firefox\/44.0",
+    "Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko\/20100101 Firefox\/57.0",
+    "Mozilla\/5.0 (Windows NT 6.3; WOW64; rv:54.0) Gecko\/20100101 Firefox\/54.0",
+    "Mozilla\/5.0 (X11; Ubuntu; Linux x86_64; rv:15.0) Gecko\/20100101 Firefox\/15.0",
+    "Mozilla\/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko\/20100101 Firefox\/45.0",
+    "Mozilla\/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko\/20100101 Firefox\/53.0",
+    "Mozilla\/5.0 (X11; Linux x86_64; rv:10.0) Gecko\/20150101 Firefox\/47.0 (Chrome)",
+    "Mozilla\/5.0 (Windows NT 6.1; rv:45.0) Gecko\/20100101 Firefox\/45.0",
+    "Mozilla\/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko\/20100101 Firefox\/47.0",
+    "Mozilla\/5.0 (Windows NT 5.1; WOW64; rv:54.0) Gecko\/20100101 Firefox\/54.0",
+    "Mozilla\/5.0 (Windows NT 6.0; WOW64; rv:54.0) Gecko\/20100101 Firefox\/54.0",
+    "Mozilla\/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko\/20100101 Firefox\/53.0",
+    "Mozilla\/5.0 (Windows NT 6.3; WOW64; rv:47.0) Gecko\/20100101 Firefox\/47.0",
+    "Mozilla\/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko\/20100101 Firefox\/58.0",
+    "Mozilla\/5.0 (Windows NT 6.1; WOW64; rv:43.0) Gecko\/20100101 Firefox\/43.0",
+    "Mozilla\/5.0 (Windows NT 6.2; WOW64; rv:41.0) Gecko\/20100101 Firefox\/41.0",
+    "Mozilla\/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko\/20100101 Firefox\/45.0",
+    "Mozilla\/5.0 (Windows NT 6.0; WOW64; rv:41.0) Gecko\/20100101 Firefox\/41.0",
+    "Mozilla\/5.0 (Windows NT 6.2; WOW64; rv:46.0) Gecko\/20100101 Firefox\/46.0",
+    "Mozilla\/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko\/20100101 Firefox\/57.0",
+    "Mozilla\/5.0 (Windows NT 5.1; WOW64; rv:41.0) Gecko\/20100101 Firefox\/41.0"
+];
+
+iconMap = {
+    true: {
+        path: "./icons/icon-active.png"
+    },
+    false: {
+        path: "./icons/icon-inactive.png"
+    }
+}
+
+extensionActive = true;
+browser.browserAction.onClicked.addListener(handleClick);
+
+function getRandomUA() {
+    return firefox[Math.floor((Math.random() * firefox.length))];
+}
+
+function rewriteUserAgentHeader(e) {
+    if (extensionActive) {
+        e.requestHeaders.forEach(header => {
+            if (header.name.toLowerCase() == "user-agent") {
+                header.value = getRandomUA();
+            }
+        });
+    }
+
+    return { requestHeaders: e.requestHeaders };
+}
+
+function handleClick() {
+    extensionActive = !extensionActive;
+    console.log(extensionActive ? "Extension active" : "Extension inactive");
+    browser.browserAction.setIcon(iconMap[extensionActive]);
+}
+
+browser.webRequest.onBeforeSendHeaders.addListener(
+    rewriteUserAgentHeader,
+    { urls: ["<all_urls>"] },
+    ["blocking", "requestHeaders"]
+);

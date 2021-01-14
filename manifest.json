@@ -1,0 +1,28 @@
+{
+    "description": "Your User Agent is replaced by a random popular Firefox User Agent",
+    "manifest_version": 2,
+    "name": "UAMasker",
+    "version": "1.0",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": [
+            "scripts/background.js"
+        ]
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "icons/icon-active.png",
+            "38": "icons/icon-active.png"
+        },
+        "theme_icons": [{
+            "light": "icons/icon-active.png",
+            "dark": "icons/icon-active.png",
+            "size": 19
+        }],
+        "default_title": "UAMasker"
+    }
+}
