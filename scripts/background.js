@@ -51,10 +51,10 @@ const firefox = [
 
 iconMap = {
     true: {
-        path: "./icons/icon-active.png"
+        path: "./icons/logo-active-38.png"
     },
     false: {
-        path: "./icons/icon-inactive.png"
+        path: "./icons/logo-inactive-38.png"
     }
 }
 

@@ -15,13 +15,12 @@
     },
     "browser_action": {
         "default_icon": {
-            "19": "icons/icon-active.png",
-            "38": "icons/icon-active.png"
+            "38": "icons/logo-active-38.png"
         },
         "theme_icons": [{
-            "light": "icons/icon-active.png",
-            "dark": "icons/icon-active.png",
-            "size": 19
+            "light": "icons/logo-active-38.png",
+            "dark": "icons/logo-active-38.png",
+            "size": 38
         }],
         "default_title": "UAMasker"
     }
